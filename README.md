@@ -20,16 +20,21 @@ This project analyzes transactional data to segment products, forecast sales, an
 **Data Cleaning:**
 
 Remove or impute missing values to ensure data consistency. In the provided notebook, rows with missing 'Description' or 'CustomerID' are dropped.
+
 **Feature Engineering:**
 
 Transform raw data into meaningful features. For instance, extracting the month from the 'InvoiceDate' and aggregating sales quantity by 'StockCode' and 'Month' to create a product sales pivot table.
-##Model Selection & Tuning
+
+## Model Selection and Tuning
+
 **Model Selection:**
 
 In the notebook, KMeans clustering is selected for segmenting products based on sales data.
 
 **Hyperparameter Tuning:**
+
 The notebook uses the Elbow Method to determine the optimal number of clusters by plotting the Sum of Squared Errors (SSE) for different values of k (number of clusters).
+
 ##Evaluation & Validation
 **Evaluation Metrics:**
 
