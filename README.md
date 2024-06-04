@@ -16,7 +16,7 @@ This project analyzes transactional data to segment products, forecast sales, an
    - Recommend similar products for cross-selling based on clustering results.
 
   
-##Data Pre-processing
+## Data Pre-processing
 **Data Cleaning:**
 
 Remove or impute missing values to ensure data consistency. In the provided notebook, rows with missing 'Description' or 'CustomerID' are dropped.
