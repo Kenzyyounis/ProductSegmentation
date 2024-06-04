@@ -35,7 +35,7 @@ In the notebook, KMeans clustering is selected for segmenting products based on 
 
 The notebook uses the Elbow Method to determine the optimal number of clusters by plotting the Sum of Squared Errors (SSE) for different values of k (number of clusters).
 
-##Evaluation & Validation
+## Evaluation & Validation
 **Evaluation Metrics:**
 
 For clustering, metrics like SSE and cluster analysis (e.g., top contributors and slow-moving products) are useful. In classification or regression tasks, metrics such as accuracy, precision, recall, F1-score, or mean squared error (MSE) are used.
